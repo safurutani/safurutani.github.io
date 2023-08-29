@@ -21,6 +21,7 @@ h3 {
   background: var(--gold);
   padding: 5px;
   color: var(--navy);
+  text-align: center;
   border: solid 5px var(--orange);
 }
 h4 {
