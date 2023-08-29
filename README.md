@@ -1,5 +1,8 @@
-For this project I wanted to delve into Chamber, a character from the first-person-shooter game, Valorant. The picture of him is front and center to capture the viewer's attention and let people know who this page is about. The image dynamically changes with the window until it reaches its original maximum size. I also chose a simple tan color pallete to match Chamber's color scheme. Still, I maintain a simple design. 
+# Portfolio Page
+This final project showcases my favorite coding projects that I have completed through freeCodeCamp. I open it up with just my name and a simple motto so that there is a clean and minimal look at the start.
 
-I divided the content into 2 sections - the lore, which is essentially background information, and reasons why I believe he is popular (some of which includes why I like him). For the latter section I came up with 5 reasons and inserted a gif as a visual reference for something that people may be unfamiliar with seeing. 
+## Choosing Projects
+I limited it to 2 per certification I've earned. So six in total are displayed and will link to the code. There is an image preview so the viewer gets a general idea of what it should look like.
 
-To finish off my web page, I included a link to the valorant wiki that had his voicelines should the viewer be more interested in what the agent sounds like or if they would like to explore more about the character.
+## Other Sections
+There is an about me with a short couple paragraphs explaining my background and where I am at in my coding career. Finally at the bottom there's links to my github and freeCodeCamp profile should the viewer be interested in more of my work. My email in the footer allows anyone to directly contact me.

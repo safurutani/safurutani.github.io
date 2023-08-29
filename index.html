@@ -1,38 +1,70 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" width="device-width, initial-scale=1">
-    <title>Tribute Page For Chamber</title>
-    <link ref="stylesheet" href="styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Web Development Portfolio</title>
   </head>
   <body>
-    <main id="main">
-      <div id="color-block">
-        <h1 id="title">Chamber</h1>
-        <figure id="img-div">
-          <div id="border">
-            <img id="image"src="https://cdnb.artstation.com/p/assets/images/images/043/254/849/large/suke-chamber-keyart-2.jpg?1636735444">
+    <nav id="navbar">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">Home</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#about-me">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <section id="welcome-section">
+      <div class="border outer">
+        <div class="border inner">
+          <h1>SARA FURUTANI</h1>
+          <h2>Let the code do the work</h2>
+        </div>
+      </div>
+    </section>
+    <section id="top-projects">
+    </section>
+    <section id="projects">
+      <h3>My Favorite Works</h3>
+      <div class="project-tile">
+        <span id="columns">
+          <div class="project">
+            <h4>Medal.TV Product Landing Page</h4>
+            <a href="https://codepen.io/safurutani/pen/RwJBgyQ"><img class="preview" src="https://i.imgur.com/VXGlATA.png"></a>
           </div>
-              <figcaption id="img-caption">The 18th Valorant agent</figcaption>
-            
-        </figure>
+          <div class="project">
+            <h4>Pandas Documentation Page</h4>
+            <a href="https://codepen.io/safurutani/pen/RwJBZbY"><img class="preview" src="https://i.imgur.com/FWSKn4k.png"></a>
+          </div>
+          <div class="project">
+            <h4>Time Series Visualizer</h4>
+            <a href="https://github.com/safurutani/data-analysis-python/tree/main/time-series-visualizer"><img class="preview" src="https://i.imgur.com/bAkueSE.png"></a>
+          </div>
+          <div class="project">
+            <h4>Medical Data Analyzer</h4>
+            <a href="https://github.com/safurutani/data-analysis-python/tree/main/medical-data-analysis"><img class="preview" src="https://i.imgur.com/yCLaOaK.png"></a>
+          </div>
+          <div class="project">
+            <h4>Budgeting Chart</h4>
+            <a href="https://github.com/safurutani/scientific-computing-python/blob/main/budget_app.py"><img class="preview" src="https://i.imgur.com/82AbMD9.png"></a>
+          </div>
+          <div class="project">
+            <h4>Roll The Dice</h4>
+            <a href="https://github.com/safurutani/rtd"><img class="preview" src="https://i.imgur.com/WnvJnmN.png"></a>
+          </div>
+        </span>
       </div>
-      <div id="body-block">
-        <h2>The Lore</h2>
-        <p id="lore">All the way from France, Vincent Fabron, better known as Chamber, is a high-class marksman with an expertise in weapon design. His kit includes two of his custom guns - headhunter and Tour de Force. He has made contact and some sort of deal with his Omega counterpart. His motives and ambitions are somewhat hazy due to the ambiguity of such a move. He successfully infiltrates Everett-Linde and retrieved schematics of projects being worked on. Before leaving, he destroys the Large Radian Collider with his Omega self which resulted in the map, Fracture.  Chamber later joined VALORANT Protocol upon encountering Brimstone and Viper as he proved key in constructing an Alpha-Omega portal with the schematics he swiped. </p>
-        <h2>What makes Chamber so popular?</h2>
-        <div id="tribute-info">
-          <p><span class="reason-name"><b>Duelist in disguise</b></span> - The signature ability "Rendevous" gives enormous first blood potential in rounds. It allows Chamber to take aggressive angles and off angles at the start of rounds with the fallback of teleporting back to the safety of site. The only downside is the lingering hitbox after you tp away. His teleport grants him the ability for selfish plays, riskier engagements, and a fast rotate. A Chamber with good aim competes and often outshines duelists in terms of getting kills.</p>
-        <p><span class="reason-name"><b>Firepower</b></span> - Chamber can buy up to 8 bullets in his Headhunter which looks similar to a sheriff. Many have nicknamed it a "pocket guardian" as it has no damage fall off and will kill with a headshot at any range. The pull out time and fire rate is very good for a secondary. At 150 credits per bullet, it can be an expensive investment compared to a sheriff, but on eco rounds and pistol rounds it still has enormous value. Chamber's ult, "Tour de Force", is an even more powerful op. The fire rate is so much faster comparatively and it creates a slow field for anyone else who dares try to peek the angle. With 5 bullets, 1 per enemy, there is huge ace potential should you hit your shots.</p>
-        <p><span class="reason-name"><b>Sentinel capabilities</b></span> - For the price of 200 credits, Chamber can place a gadget that detects/slows enemies. The team gets great value from it holding flanks or providing information on an area somebody doesn't want to hold. It not only gives a sound cue when it sees the enemy but also triggers a voiceline when somebody is currently slowed. You can get creative with the placements as well since it is effective at any elevation. The only fault is being able to be smoked/walled off and enemies slip past.</p>
-        <p><span class="reason-name"><b>Meme-ability</b></span> - Players have discovered how goofy his in-game model is compared to the official art. His sharp features have disappeared. His crouch walk while holding his abilities is iconic and many players can be found doing it. Something about it is so entertaining. People also poke fun at his relationship with Viper where their voicelines together include her rejecting his date offer.<img id="gif" src="https://media.tenor.com/mgzj6CficgkAAAAd/getting-on-valorant-chamber-valorant.gif" alt="chamber crouch walk"></p>
-        <p><span class="reason-name"><b>Simps</b></span> - As with any character there are people who will simp for him. His sleek appearance and elegant/arrogant nature appeal to many. There are plenty of tik toks with people cosplaying him, too. His ult voicelines are pretty popular as well - "They are so dead!" and "You want to play? Let's play." The French accent might have something to do with the people who really like his voice.</p>
-      </div>
-      <div>
-        <p>To hear his voicelines, please visit the <a id="tribute-link" href="https://valorant.fandom.com/wiki/Chamber/Quotes" target="_blank" >valorant fandom wiki</a>.</p>
-      </div>
-      </div>
-    </main>
+  </section>
+    <section id="about-me">
+      <h3>About Me</h3>
+      <p>Hi there! I am a former pre-veterinarian student who has found their passion for coding. While I graduated with a Bachelor's in Animal Science, I decided to switch career paths to one that is more stimulating for me. The kind of logical thinking and problem solving within the field of computer science better suits my way of thinking. Also, why not increase my screen time from the amount I already have from playing video games?<br><br>I want to learn it all, and freeCodeCamp has helped me acquire such knowledge. So far I have completed the responsive web design, data analysis, and scientific computing certifications (whilst having a blast). Both frontend development and software development are appealing to me, so I have not yet limited myself to picking just one path. I'm excited to share with you the projects I have completed thus far! So why don't you stay a while and take a look?</p>
+    </section>
+    <section id="contact">
+      <h3>Get in contact!</h3>
+      <a href="https://www.freecodecamp.org/bluesara24" id="profile-link" target="_blank"><img class="icon" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/FreeCodeCamp_logo.svg/2560px-FreeCodeCamp_logo.svg.png"></a>
+      <a href="https://github.com/safurutani" target="_blank"><img class="icon" src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"></a>
+      <p>sarafurutani@gmail.com</p>
+    </section>
   </body>
 </html>
